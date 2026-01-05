@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("beneish_model.pkl")
+model = joblib.load("ml_streamlit_app/beneish_model.pkl")
 
 st.title("Earnings Manipulation Detection System")
 
